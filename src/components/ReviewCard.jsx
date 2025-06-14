@@ -21,7 +21,7 @@ export default function ReviewCard() {
 
       {/* Card */}
       <div
-        className="relative rounded-2xl shadow-xl max-w-[85%] lg:max-w-[40%] h-fit md:h-[65vh] w-full p-8 pt-16 text-center z-10 overflow-visible"
+        className="relative rounded-2xl shadow-xl max-w-[85%] lg:max-w-[40%] h-fit lg:h-[65vh] w-full p-8 pt-16 text-center z-10 overflow-visible"
         style={{
           // backgroundImage: `url(${pattern})`,
           // backgroundRepeat: 'repeat',
