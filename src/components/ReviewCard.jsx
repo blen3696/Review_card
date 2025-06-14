@@ -8,7 +8,7 @@ import StarRateIcon from '@mui/icons-material/StarRate';
 
 export default function ReviewCard() {
   const handleRedirect = () => {
-    window.open('https://www.google.com/search?q=AddisVille+Hotel+Apartments+review', '_blank');
+    window.open('https://www.google.com/search?sca_esv=f5357ae72790bb1e&hl=en&sxsrf=AE3TifMQv1zVHwD__bSB-cPPQgisAWxuRA:1749889265912&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E3P7Sr7LRS3CJpolCrPJSXwF-_Xtl9AWuCn_Ym3_37Df5gapuUAudVlGrdO9_UqetkZA1XP6nrGMiR3Fxb5DL9S0QKpBiWOOqKaDDpc6reU3f9w1hQ%3D%3D&q=Addis+Ville+Hotel+Apartment+Reviews&sa=X&ved=2ahUKEwjb99zAvfCNAxV0gP0HHQ9ANvsQ0bkNegQIIBAE&biw=1517&bih=772&dpr=0.9#lrd=0x164b850068b9bc65:0x510d5df8dc61d536,3', '_blank');
   };
 
   return (
@@ -50,9 +50,8 @@ export default function ReviewCard() {
 
         {/* Message */}
         <p className="text-gray-900  text-xl mb-6">
-          It was a pleasure hosting with you!
-          We’d be thrilled if you could
-          share your feedback with us.
+          It was a pleasure hosting you! <br />
+          Share your experience with us.
         </p>
 
         {/* Stars & Google Button */}
