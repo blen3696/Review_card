@@ -3,7 +3,7 @@ import { FcGoogle } from 'react-icons/fc';
 import { FaStar } from 'react-icons/fa';
 import logo from '../assets/logo.png';
 import bgImage from '../assets/10002.jpg';
-import pattern from "../assets/Pattern.png";
+import pattern from "../assets/pattern.png";
 import StarRateIcon from '@mui/icons-material/StarRate';
 
 export default function ReviewCard() {
