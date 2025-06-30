@@ -16,7 +16,7 @@ export default function ReviewCard() {
   return (
     <>
       <div
-        className="relative w-full min-h-[92vh] flex items-center justify-center bg-cover bg-center bg-no-repeat"
+        className="relative w-full min-h-[94vh] flex items-center justify-center bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
         {/* Background Overlay */}
@@ -76,7 +76,7 @@ export default function ReviewCard() {
       </div>
 
       {/* Footer */}
-      <footer className="w-full bg-gray-100 text-center py-4 text-gray-700 text-sm">
+      <footer className="w-full bg-white text-center h-[6vh] py-2 text-gray-700 text-sm">
         © {new Date().getFullYear()} Powered by{' '}
         <a
           href="https://seedgit.com" 
